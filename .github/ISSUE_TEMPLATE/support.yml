@@ -1,0 +1,39 @@
+```yaml
+name: Support Issue
+description: Log a support issue for Wisej.NET
+body:
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: Select the label that best describes your issue.
+      options:
+        - General
+        - Bug
+        - New Feature
+        - Suggestion
+    validations:
+      required: true
+
+  - type: input
+    id: wisej-version
+    attributes:
+      label: Wisej.NET Version
+      description: Enter the Wisej.NET version you are using.
+      placeholder: "Example: 4.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: >
+        Clearly describe the issue. Include a small, reproducible, and runnable
+        test case whenever possible. Do not paste screenshots of code.
+      placeholder: >
+        Describe what happened, what you expected to happen, and include the
+        minimal code/project needed to reproduce the issue.
+    validations:
+      required: true
+```
