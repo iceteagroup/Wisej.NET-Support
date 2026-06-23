@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Wisej.NET Documentation
+    url: https://docs.wisej.com/
+    about: Check the documentation before opening a support issue.
+
+  - name: Wisej.NET Support
+    url: https://wisej.com/support/
+    about: Use this for general support questions outside GitHub issues.
