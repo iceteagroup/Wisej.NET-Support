@@ -1,4 +1,3 @@
-```yaml
 name: Support Issue
 description: Log a support issue for Wisej.NET
 body:
@@ -36,4 +35,3 @@ body:
         minimal code/project needed to reproduce the issue.
     validations:
       required: true
-```
